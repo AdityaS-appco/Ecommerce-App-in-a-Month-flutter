@@ -1,20 +1,108 @@
-# easy_mall_shop
 
-A new Online shop project.
+# E-commerce Flutter App
 
-![image6](https://user-images.githubusercontent.com/59020445/128601718-4ddc24e9-59d4-45ba-a039-eafaa45a8eac.jpeg) ![image8](https://user-images.githubusercontent.com/59020445/128601722-18a792d5-60c4-4ee2-a213-7e0bcb8af848.jpeg)  ![image10](https://user-images.githubusercontent.com/59020445/128601734-ed81a9f8-a5bb-42a7-8e84-9d0c57ab503a.jpeg)  ![image9](https://user-images.githubusercontent.com/59020445/128601728-24996bec-f8e4-4b32-b70c-0b8d658e53ba.jpeg)  
-![image11](https://user-images.githubusercontent.com/59020445/128601741-5cf53d9f-e7e0-4b59-a851-26f5ea4a51aa.jpeg)  ![image4](https://user-images.githubusercontent.com/59020445/128601750-da90f564-17fb-4d31-add2-f83c0dc8cf7f.jpeg)   ![image7](https://user-images.githubusercontent.com/59020445/128601752-254cf778-d7ae-4ef7-88b1-77bcf9739910.jpeg)   ![image1](https://user-images.githubusercontent.com/59020445/128601755-e9099236-2353-4ab0-82dd-42b95b1c3196.jpeg)   ![image1](https://user-images.githubusercontent.com/59020445/128601757-5f739935-fd07-4a38-9edf-1621b9cebd90.jpeg)   
-![image3](https://user-images.githubusercontent.com/59020445/128601745-1ccb7ce1-9d54-4bf8-966d-9a61baa46ee1.jpeg)
+Easy Mall is a fully functional and production-ready e-commerce mobile application built using **Flutter** and **Firebase**. Developed in just one month, the app offers a complete shopping experience for users and a full-featured admin panel for sellers or app managers.
 
-## Getting Started
+---
 
-This project is not perfect for you to strat your coding if you are a beginer in Flutter development.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 👥 User Module
+- User registration and login (Firebase Authentication)
+- Browse products across multiple categories
+- Add to cart, wishlist, and place orders
+- Order history and profile management
+- Real-time updates from Firestore
+- Push notifications via Firebase Cloud Messaging (FCM)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### 🛠️ Admin Panel
+- Product upload with image support (Firebase Storage)
+- View and manage orders
+- Inventory and product list management
+- Secure admin access
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Tech Stack
+
+| Layer        | Technology           |
+|--------------|----------------------|
+| Frontend     | Flutter              |
+| Backend      | Firebase Firestore   |
+| Auth         | Firebase Auth        |
+| Storage      | Firebase Storage     |
+| Notifications| Firebase Cloud Messaging (FCM) |
+| State Mgmt   | Provider (or Riverpod) |
+
+---
+
+## 📂 Folder Structure
+
+```
+
+lib/
+│
+├── models/              # Data models (User, Product, Order)
+├── screens/             # All UI screens (home, cart, login, admin, etc.)
+├── services/            # Firebase integrations and utility functions
+├── providers/           # State management logic
+├── widgets/             # Custom reusable widgets
+├── main.dart            # App entry point
+
+````
+
+---
+
+## 📷 Screenshots
+
+| Home Screen | Product Details | Admin Dashboard |
+|-------------|------------------|------------------|
+| ![](screenshots/home.png) | ![](screenshots/details.png) | ![](screenshots/admin.png) |
+
+---
+
+## ✅ How to Run
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/your-username/easy-mall-main.git
+   cd easy-mall-main
+````
+
+2. **Install dependencies:**
+
+   ```bash
+   flutter pub get
+   ```
+
+3. **Add Firebase configuration:**
+
+   * Add `google-services.json` in `android/app/`
+   * Add `GoogleService-Info.plist` in `ios/Runner/` (if needed)
+
+4. **Run the app:**
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 📈 Features to be Added
+
+* Payment gateway integration
+* Deep linking
+* Order tracking with maps
+* Review and rating system
+* Product recommendations (AI-based)
+
+
+---
+
+## ⚖️ License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+
+
