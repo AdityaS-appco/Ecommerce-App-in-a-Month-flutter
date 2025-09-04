@@ -1,7 +1,7 @@
 
 # E-commerce Flutter App
 
-Easy Mall is a fully functional and production-ready e-commerce mobile application built using **Flutter** and **Firebase**. Developed in just one month, the app offers a complete shopping experience for users and a full-featured admin panel for sellers or app managers.
+This is a fully functional and production-ready e-commerce mobile application built using **Flutter** and **Firebase**. Developed in just one month, the app offers a complete shopping experience for users and a full-featured admin panel for sellers or app managers.
 
 ---
 
